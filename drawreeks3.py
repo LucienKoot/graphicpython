@@ -1,6 +1,6 @@
 import turtle
 stamp = turtle.Turtle()
-stamp.shape("triangle")
+stamp.shape("classic")
 
 stamp.penup()
 stamp.forward(50)
