@@ -2,8 +2,10 @@
 	
 import turtle
 
+
 turtle.pensize (7)
 turtle.color ("gold")
+
 
 h = 0
 while h  < 4:
