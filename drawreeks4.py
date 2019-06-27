@@ -2,8 +2,9 @@ import turtle
 stamp = turtle.Turtle()
 stamp.shape("turtle")
 
-stamp.penup()
+stamp.color("orange")
 
-for i in range (6):
+stamp.penup()
+for i in range (5):
     stamp.forward(50)
     stamp.stamp()
