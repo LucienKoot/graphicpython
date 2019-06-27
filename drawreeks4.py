@@ -1,10 +1,12 @@
+#for loop stamp
+
 import turtle
-stamp = turtle.Turtle()
-stamp.shape("turtle")
+stam = turtle.Turtle()
+stam.shape("turtle")
 
-stamp.color("orange")
+stam.penup()
 
-stamp.penup()
-for i in range (5):
-    stamp.forward(50)
-    stamp.stamp()
+for a in ["orange", "cyan","green"]:
+    stam.color(a)
+    stam.forward(50)
+    stam.stamp()
